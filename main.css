@@ -13,6 +13,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 .box {
     width: 300px;
@@ -25,11 +28,14 @@
     width: 10px;
 }
 #background2 {
-    background-image: url("http://puu.sh/r2HDr/285dbf8e71.jpg");
+    background-image: url("http://puu.sh/r2JtF/759ff9d24d.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 #backgroundmain {
     background-image: url("http://i.imgur.com/VQaJKNO.jpg");
@@ -37,6 +43,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 .button {
     width: 200px;
