@@ -11,10 +11,10 @@
     background-image: url("http://puu.sh/r2FGZ/1a64996fae.jpg")
 }
 .box {
-    width: 1250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     background-color: black;
-    opacity: 50%;
+    margin: auto;   
 }
 #spacer2 {
     height: 12px;
@@ -22,4 +22,31 @@
 }
 #background2 {
     background-image: url("http://puu.sh/r2HDr/285dbf8e71.jpg")
+}
+#backgroundmain {
+    background-image: url("http://i.imgur.com/VQaJKNO.jpg")
+}
+.button {
+    width: 200px;
+    margin: auto;
+    -webkit-border-radius: 27;
+    -moz-border-radius: 27;
+    border-radius: 27px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #5c5c5c);
+    background-image: -moz-linear-gradient(top, #000000, #5c5c5c);
+    background-image: -ms-linear-gradient(top, #000000, #5c5c5c);
+    background-image: -o-linear-gradient(top, #000000, #5c5c5c);
+    background-image: linear-gradient(to bottom, #000000, #5c5c5c);
+    text-decoration: none;
 }
