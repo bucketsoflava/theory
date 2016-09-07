@@ -8,7 +8,11 @@
     text-align: center;
 }
 #background {
-    background-image: url("http://puu.sh/r2FGZ/1a64996fae.jpg")
+    background-image: url("http://puu.sh/r2FGZ/1a64996fae.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .box {
     width: 300px;
@@ -21,10 +25,18 @@
     width: 10px;
 }
 #background2 {
-    background-image: url("http://puu.sh/r2HDr/285dbf8e71.jpg")
+    background-image: url("http://puu.sh/r2HDr/285dbf8e71.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #backgroundmain {
-    background-image: url("http://i.imgur.com/VQaJKNO.jpg")
+    background-image: url("http://i.imgur.com/VQaJKNO.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .button {
     width: 200px;
