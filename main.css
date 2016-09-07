@@ -9,9 +9,13 @@
 }
 #background {
     background-image: url("http://puu.sh/r2FGZ/1a64996fae.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
     background-size: cover;
     width: auto ;
     max-width: 100% ;
@@ -29,9 +33,13 @@
 }
 #background2 {
     background-image: url("http://puu.sh/r2JtF/759ff9d24d.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
     background-size: cover;
     width: auto ;
     max-width: 100% ;
@@ -39,9 +47,13 @@
 }
 #backgroundmain {
     background-image: url("http://i.imgur.com/VQaJKNO.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
     background-size: cover;
     width: auto ;
     max-width: 100% ;
