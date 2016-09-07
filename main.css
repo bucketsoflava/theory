@@ -1,5 +1,9 @@
 #spacer {
-    height: 200px;
+    height: 100px;
+    width: 10px;
+}
+.buttonSpacer {
+    height: 50px;
     width: 10px;
 }
 .textaligncenter {
