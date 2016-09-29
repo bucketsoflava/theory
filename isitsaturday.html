@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>is it saturday?</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+            <style type="text/css">
+                body {
+                    color: #000;
+                    background-color: #fff;
+                    font-family: 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
+                }
+                h1 {
+                    text-align: center;
+                    font-weight: normal;
+                    font-size: 12em;
+                }
+                .yes {
+                    color: #080;
+                }
+                .no {
+                    color: #f00;
+                }
+                .maybe {
+                    color: #000;
+                }
+        </style>
+      <script type="text/javascript">
+             var today = new Date();
+             var wkday = today.getDay();
+             function thursday() {
+                if (wkday == 6) {
+                    document.write('<h1 class="yes">YES</h1>');
+                }
+                else {
+                    document.write('<h1 class="no">NO</h1>');
+                }
+            }
+        function checkday() {
+             var newtoday = new Date();
+             var newwkday = newtoday.getDay();
+             if (wkday == 5 && newwkday == 6) {
+                 location.reload();
+             }
+             if (wkday == 6 && newwkday == 7) {
+                location.reload();
+             }
+         }
+         setInterval('checkday()', 1000);
+     </script>
+        <script type="text/javascript">
+           thursday();
+        </script>
+        <noscript>
+            <h1 class="maybe">MAYBE</h1>
+        </noscript>
+    </body>
+</html>
